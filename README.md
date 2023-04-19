@@ -1,5 +1,7 @@
 # Server
 
+Node version: v16.20.0
+
 ## Installation
 
 ```bash
@@ -14,6 +16,8 @@ $ npm run start
 ```
 
 # Front
+
+Node version: v16.20.0
 
 ## Installation
 
