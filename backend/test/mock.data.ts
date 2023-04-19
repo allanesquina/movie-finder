@@ -1,0 +1,41 @@
+export const mockData = {
+  Title: 'Oblivion',
+  Year: '2013',
+  Rated: 'PG-13',
+  Released: '19 Apr 2013',
+  Runtime: '124 min',
+  Genre: 'Action, Adventure, Sci-Fi',
+  Director: 'Joseph Kosinski',
+  Writer: 'Karl Gajdusek, Michael Arndt, Joseph Kosinski',
+  Actors: 'Tom Cruise, Morgan Freeman, Andrea Riseborough',
+  Plot: "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
+  Language: 'English',
+  Country: 'United States',
+  Awards: '1 win & 17 nominations',
+  Poster:
+    'https://m.media-amazon.com/images/M/MV5BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._V1_SX300.jpg',
+  Ratings: [
+    {
+      Source: 'Internet Movie Database',
+      Value: '7.0/10',
+    },
+    {
+      Source: 'Rotten Tomatoes',
+      Value: '54%',
+    },
+    {
+      Source: 'Metacritic',
+      Value: '54/100',
+    },
+  ],
+  Metascore: '54',
+  imdbRating: '7.0',
+  imdbVotes: '535,021',
+  imdbID: 'tt1483013',
+  Type: 'movie',
+  DVD: '06 Aug 2013',
+  BoxOffice: '$89,107,235',
+  Production: 'N/A',
+  Website: 'N/A',
+  Response: 'True',
+};
