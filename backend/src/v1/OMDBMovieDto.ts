@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString, ValidateNested } from 'class-validator';
+import { IsString, ValidateNested } from 'class-validator';
 
 // DTO Object
 export class RatingType {
@@ -8,11 +8,9 @@ export class RatingType {
     });
   }
 
-  @IsNotEmpty()
   @IsString()
   Source: string;
 
-  @IsNotEmpty()
   @IsString()
   Value: string;
 }
@@ -37,99 +35,75 @@ export class OMDBMovieDto {
     });
   }
 
-  @IsNotEmpty()
   @IsString()
   Title: string;
 
-  @IsNotEmpty()
   @IsString()
   Year: string;
 
-  @IsNotEmpty()
   @IsString()
   Rated: string;
 
-  @IsNotEmpty()
   @IsString()
   Released: string;
 
-  @IsNotEmpty()
   @IsString()
   Runtime: string;
 
-  @IsNotEmpty()
   @IsString()
   Genre: string;
 
-  @IsNotEmpty()
   @IsString()
   Director: string;
 
-  @IsNotEmpty()
   @IsString()
   Writer: string;
 
-  @IsNotEmpty()
   @IsString()
   Actors: string;
 
-  @IsNotEmpty()
   @IsString()
   Plot: string;
 
-  @IsNotEmpty()
   @IsString()
   Language: string;
 
-  @IsNotEmpty()
   @IsString()
   Country: string;
 
-  @IsNotEmpty()
   @IsString()
   Awards: string;
 
-  @IsNotEmpty()
   @IsString()
   Poster: string;
 
-  @IsNotEmpty()
   @IsString()
   Metascore: string;
 
-  @IsNotEmpty()
   @IsString()
   imdbRating: string;
 
-  @IsNotEmpty()
   @IsString()
   imdbVotes: string;
 
-  @IsNotEmpty()
   @IsString()
   imdbID: string;
 
-  @IsNotEmpty()
   @IsString()
   Type: string;
 
-  @IsNotEmpty()
   @IsString()
   DVD: string;
 
-  @IsNotEmpty()
   @IsString()
   BoxOffice: string;
 
-  @IsNotEmpty()
   @IsString()
   Production: string;
 
-  @IsNotEmpty()
   @IsString()
   Website: string;
 
-  @IsNotEmpty()
   @IsString()
   Response: string;
 
